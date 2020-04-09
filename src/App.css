@@ -6,7 +6,7 @@
 .scoreboard {
   width: 58%;
   margin: 2rem auto;
-  background-color: #0b5402;
+  background-color: #660000;
   color: white;
   border-radius: 0.5rem;
   padding: 5rem;
@@ -29,15 +29,15 @@
   place-items: center;
   border: 3px solid white;
   border-radius: 0.5rem;
-  width: 15rem;
+  width: 16rem;
 }
 
 .home {
-  background-color: #656565;
+  background-color: #4072fc;
 }
 
 .away {
-  background-color: #af750a;
+  background-color: #275c32;
 }
 
 .home__name,
@@ -89,9 +89,45 @@
   place-items: center;
 }
 
-.down__value,
-.toGo__value,
-.ballOn__value,
+.down__value {
+  font-family: "Ozone";
+  font-size: 5rem;
+  color: var(--red);
+  width: 7rem;
+  text-align: center;
+  background-color: var(--black);
+  margin-top: 1rem;
+  border-radius: 4px;
+  padding: 1.6rem;
+  border: 1px solid white;
+}
+
+.toGo__value {
+  font-family: "Ozone";
+  font-size: 5rem;
+  color: green;
+  width: 7rem;
+  text-align: center;
+  background-color: var(--black);
+  margin-top: 1rem;
+  border-radius: 4px;
+  padding: 1.6rem;
+  border: 1px solid white;
+}
+
+.ballOn__value {
+  font-family: "Ozone";
+  font-size: 5rem;
+  color: white;
+  width: 7rem;
+  text-align: center;
+  background-color: var(--black);
+  margin-top: 1rem;
+  border-radius: 4px;
+  padding: 1.6rem;
+  border: 1px solid white;
+}
+
 .quarter__value {
   font-family: "Ozone";
   font-size: 5rem;
